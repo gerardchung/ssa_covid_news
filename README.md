@@ -36,7 +36,7 @@ A total of 1,435 articles were downloaded in .docx format.
  
 **Results of search**: 1,435 articles across almost three years period
 
-***Note: Nexis Uni's IP policies do not allow me to share the data***
+***Note: Nexis Uni's IP policies do not allow me to share the data***. Nonetheless, the raw text files can be downloaded with a subscription to Nexis and using the above search parameters.
 
 ## Data-extraction
 see codes in cr_do
