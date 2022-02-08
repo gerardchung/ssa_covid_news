@@ -7,6 +7,10 @@ output:
 
 **README WORK IN PROGRESS**
 
+## Introduction 
+This is a description of the data extraction process and the codes for replication. 
+If you are looking for the article, it is [here](https://gerardchung.github.io/ssanews/)
+
 ## Data-Search
 I searched for news articles in __Nexis Uni__
  
@@ -56,7 +60,7 @@ Tokenization is another technique in NLP where words or text features are repres
 
 Additional preprocessing was done depending on the unique characteristics of the corpus. For instance, I converted all variations of COVID-19-related phrases (e.g., COVID, COVID19, coronavirus) to COVID19 for standardization. For certain analyses, the phrases “social service agencies”, “voluntary welfare organizations, and “community service agencies” were removed from the corpus because these phrases described a shared context for all the articles and thus would not contribute to answering the research questions. 
 
-All text pre-processing and analyses were done in the R statistical software using the quanteda, spacyr, and tidytext packages. Visualizations were done with the ggplot package. Data cannot be publicly shared because of the intellectual property restrictions stipulated by Nexis Uni. All codes and detailed descriptions on downloading the data from Nexis Uni are provided at https://github.com/gerardchung/ssa_covid_news.
+All text pre-processing and analyses were done in the R statistical software using the quanteda, spacyr, and tidytext packages. Visualizations were done with the ggplot package. Data cannot be publicly shared because of the intellectual property restrictions stipulated by Nexis Uni. 
 
 ## Footnotes
 [^1]: See discussion on text preprocessing in Chung, G., Rodriguez, M., Lanier, P., & Gibbs, D. (2021, May 11). Text-mining open-ended survey responses using structural topic modeling: A practical demonstration to understand parents’ coping methods during COVID-19 pandemic in Singapore. https://doi.org/10.31219/osf.io/enzst![image](https://user-images.githubusercontent.com/65118803/152710429-906f1cd8-b285-4e1c-954c-33803076a8ec.png)
